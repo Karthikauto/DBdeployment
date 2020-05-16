@@ -1,4 +1,5 @@
 set echo on;
 select name from v$database;
 select * from v$instance;
-create table testautodeployment(test1 varchar2(100));
+alter table testautodeployment add column(test2 varchar2(100));
+                                            
